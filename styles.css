@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap');
+
+/* My Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* My Defaults */
+body {
+  background-color: #456392;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+
+/* My Codes */
+main {
+  margin: 50px;
+}
+
+/* article customize */
+article.customize {
+  border-radius: 20px;
+  background: #FFF;
+
+  max-width: 26.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  padding: 30px 30px 40px 30px;
+  margin-bottom: 50px;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.notice img {
+  background-color: white;
+  border-radius: 100px;
+  padding: 17px;
+  border: 10px solid #D8E6FA46;
+}
+
+.notice .content p:nth-child(1) {
+  color: #131E30;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.notice .content p:nth-child(2) {
+  color: #131E30;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.customize button {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  border-radius: 0.625rem;
+  background: #294266;
+
+  max-width: 21.375rem;
+  padding: 19px 0;
+}
+
+/* article preview */
+article.preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background: #FFF;
+
+  max-width: 34.25rem;
+  padding: 2.8125rem;
+  margin-bottom: 50px;
+}
+.preview .content {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.preview .content > p {
+  color: #131E30;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.images {
+  display: flex;
+}
+
+.images img:nth-child(1) {
+  z-index: 3; 
+}
+
+.images img:nth-child(2) {
+  margin-left: -16px;
+  z-index: 2; 
+}
+
+.images img:nth-child(3) {
+  margin-left: -22px;
+  z-index: 1; 
+}
+
+/* article profile */
+
+article.profile {
+  max-width: 21.375rem;
+  border-radius: 20px;
+  background: #FFF;
+  padding: 50px 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile .image {
+  margin-bottom: -26px;
+}
+
+.profile .image img {
+  border-radius: 100px;
+  border: 10px solid #ECF3FC;
+}
+
+.profile .image p {
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  border-radius: 20px;
+  background: #294266;
+
+  max-width: 3.125rem;
+  padding: 6px 0;
+
+  transform: translate(49px, -16px);
+}
+
+.profile .name {
+  margin-top: 13px;
+}
+
+.profile .name p:nth-child(1) {
+  color: #131E30;
+  text-align: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.profile .name p:nth-child(2) {
+  color: #131E30;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.profile .followers {
+  margin-top: 60px;
+}
+
+.profile .followers p:nth-child(1) {
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: -4px;
+}
